@@ -3,7 +3,7 @@ var http = require('http');
 function startKeepAlive() {
     setInterval(function() {
         var options = {
-            host: 'mc-fouand-server.herokuapp.com',
+            host: 'fouand-serv.herokuapp.com',
             port: 80,
             path: '/'
         };
