@@ -19,7 +19,7 @@ function startKeepAlive() {
         }).on('error', function(err) {
             console.log("Error: " + err.message);
         });
-    }, 0.5 * 60 * 1000); // 30сек
+    }, 10 * 60 * 1000); // 30сек
 }
 
 startKeepAlive();
